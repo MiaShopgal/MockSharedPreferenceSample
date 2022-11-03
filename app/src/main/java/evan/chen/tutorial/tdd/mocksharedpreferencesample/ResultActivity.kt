@@ -1,9 +1,7 @@
 package evan.chen.tutorial.tdd.mocksharedpreferencesample
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.content.Intent
-
+import android.support.v7.app.AppCompatActivity
 
 
 class ResultActivity : AppCompatActivity() {
@@ -12,7 +10,7 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val id = intent.getStringExtra("ID")
+        intent.getStringExtra("ID")
 
     }
 }
